@@ -1,2 +1,11 @@
-# budget-tracker
-Progressive web app budget tracker that can be used online and offline.
+# Budget Tracker
+Progressive web app budget tracker. Any changes that a user makes offline will be added to the total when the app comes back online.
+Web app can also be downloaded and used as a desktop app.
+
+![screen shot](./public/images/tracker.png)
+
+## Technologies used
+<li> MongoDB
+<li> IndexedDB
+<li> Node.js
+<li> Express.js
