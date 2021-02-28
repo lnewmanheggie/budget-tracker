@@ -16,13 +16,13 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/budget',
+  process.env.MONGODB_URI || 'mongodb+srv://test:test@cluster0.kqhtc.mongodb.net/budget?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
     useFindAndModify: false
-  }
+  }, (err) => console.log(err)
 );
 
 // routes
