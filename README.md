@@ -5,7 +5,7 @@ Web app can also be downloaded and used as a desktop app.
 ![screen shot](./public/images/tracker.png)
 
 ## Deployed app
-[Budget Tracker](https://github.com/lnewmanheggie/budget-tracker)
+[Budget Tracker](https://number-1-budget.herokuapp.com/)
 
 ## Technologies used
 <li> MongoDB
